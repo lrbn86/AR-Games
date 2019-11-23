@@ -1,0 +1,37 @@
+/* Mobile First Design */
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(purple, red);
+}
+
+#home-page {
+  margin: 0 auto;
+  height: 100px;
+  width: 320px;
+}
+
+#nav-bar {
+  height: 50px;
+  background-color: gray;
+}
+
+/* Desktop Style */
+@media only screen and (min-width: 499px) {
+  #home-page {
+    height: 200px;
+    width: 500px;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+}
