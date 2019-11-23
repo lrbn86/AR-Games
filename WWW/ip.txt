@@ -1,1 +1,4 @@
-209.97.144.196
+hosted by DigitalOcean
+file transer through FileZilla
+SSL Certificate
+209.97.144.196 - no longer in use
