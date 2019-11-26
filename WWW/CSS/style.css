@@ -3,25 +3,52 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   height: 100%;
 }
+
 body {
   background-repeat: no-repeat;
   background-image: linear-gradient(purple, red);
 }
 
-#home-page {
-  margin: 0 auto;
-  height: 100px;
-  width: 320px;
+#bars-icon {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 32px;
 }
 
 #nav-bar {
   height: 50px;
-  background-color: gray;
+  background-color: black;
+  position: relative;
+}
+
+#nav-links {
+  /* background-color: black; */
+  transform: translate(0%, 10%);
+  list-style: none;
+  text-align: center;
+  /* Initially hidden */
+  display: none;
+}
+
+#nav-links > li {
+  background-color: black;
+  border-top: 1px solid white;
+  padding: 15px;
+}
+
+#nav-links > li > a {
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  color: white;
 }
 
 /* Desktop Style */
