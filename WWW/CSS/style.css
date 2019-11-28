@@ -1,9 +1,14 @@
 /* Mobile First Design */
-/* Reset */
 * {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
 }
 
 html {
@@ -23,6 +28,14 @@ body {
   width: 32px;
 }
 
+#mobile-logo {
+  width: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #nav-bar {
   height: 50px;
   background-color: black;
@@ -30,11 +43,9 @@ body {
 }
 
 #nav-links {
-  /* background-color: black; */
   transform: translate(0%, 10%);
   list-style: none;
   text-align: center;
-  /* Initially hidden */
   display: none;
 }
 
@@ -53,12 +64,4 @@ body {
 
 /* Desktop Style */
 @media only screen and (min-width: 499px) {
-  #home-page {
-    height: 200px;
-    width: 500px;
-  }
-
-  #nav-bar {
-    display: none;
-  }
 }
