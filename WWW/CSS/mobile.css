@@ -1,0 +1,64 @@
+/* Mobile First Design */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(purple, red);
+}
+
+#bars-icon {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 32px;
+}
+
+/* Mobile */
+#logo {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#nav-bar {
+  height: 50px;
+  background-color: black;
+  position: relative;
+}
+
+#nav-links {
+  transform: translate(0%, 10%);
+  list-style: none;
+  text-align: center;
+  display: none;
+}
+
+#nav-links > li {
+  background-color: black;
+  border-top: 1px solid white;
+  padding: 15px;
+}
+
+#nav-links > li > a {
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
