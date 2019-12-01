@@ -18,6 +18,7 @@ html {
 body {
   background-repeat: no-repeat;
   background-image: linear-gradient(purple, red);
+  background-attachment: fixed;
 }
 
 #bars-icon {
@@ -61,4 +62,14 @@ body {
   text-decoration: none;
   display: block;
   color: white;
+}
+
+#content {
+  padding: 15px;
+}
+
+
+div.gallery img {
+  width: 50%;
+  height: auto;
 }
