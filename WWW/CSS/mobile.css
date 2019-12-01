@@ -3,12 +3,12 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 h1 {
   font-size: 35px;
   text-align: center;
-  color: white;
 }
 
 html {
@@ -22,7 +22,6 @@ body {
 }
 
 #bars-icon {
-  color: white;
   position: absolute;
   top: 50%;
   transform: translate(50%, -50%);
@@ -68,8 +67,31 @@ body {
   padding: 15px;
 }
 
+#store-gallery, #games-gallery {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
 
-div.gallery img {
-  width: 50%;
+div.gallery img{
+  width: 100%;
   height: auto;
+}
+
+div.gallery {
+  width: 50%;
+}
+
+div.gallery {
+  border: 2px solid white;
+}
+
+div.gallery:hover {
+  border: 2px solid black;
+}
+
+.responsive {
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
 }
