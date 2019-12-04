@@ -27,7 +27,6 @@ body {
   width: 32px;
 }
 
-/* Mobile */
 #logo {
   width: 30%;
   position: absolute;
@@ -63,36 +62,6 @@ body {
 }
 
 #content {
-  padding: 15px;
-}
-
-#store-gallery,
-#games-gallery {
-  display: flex;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.gallery {
-  width: 50%;
-}
-
-div.gallery {
-  border: 2px solid white;
-}
-
-div.gallery:hover {
-  border: 2px solid black;
-}
-
-.responsive {
-  text-align: center;
-  margin: 0 auto;
   padding: 15px;
 }
 

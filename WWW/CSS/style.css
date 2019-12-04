@@ -47,43 +47,12 @@ body {
 
 #nav-links > li:hover {
   background-color: #c000ff;
-  border-radius: 15px;
 }
 
 #nav-links > li > a {
   text-decoration: none;
   color: white;
   padding: 10px 40px;
-}
-
-#store-gallery,
-#games-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-div.gallery img {
-  /* width: 100%; */
-  height: auto;
-}
-
-div.gallery {
-  border: 2px solid white;
-}
-
-div.gallery:hover {
-  border: 2px solid black;
-}
-
-.responsive {
-  text-align: center;
-  margin: 0 auto;
-  padding: 15px;
-}
-
-#content {
-  padding: 15px;
 }
 
 .content-body {
