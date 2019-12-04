@@ -43,6 +43,10 @@ body {
   position: relative;
 }
 
+#logo {
+  width: 50%;
+}
+
 #nav-links {
   transform: translate(0%, 10%);
   list-style: none;
@@ -67,13 +71,14 @@ body {
   padding: 15px;
 }
 
-#store-gallery, #games-gallery {
+#store-gallery,
+#games-gallery {
   display: flex;
   /* flex-wrap: wrap; */
   flex-direction: column;
 }
 
-div.gallery img{
+div.gallery img {
   width: 100%;
   height: auto;
 }
@@ -96,7 +101,8 @@ div.gallery:hover {
   padding: 15px;
 }
 
-input[type=text], textarea {
+input[type="text"],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -108,7 +114,7 @@ input[type=text], textarea {
   color: black;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: white;
   color: black;
   border: none;
@@ -117,6 +123,19 @@ input[type=submit] {
   padding: 12px 20px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.445);
+}
+
+#content {
+  text-align: center;
+}
+
+.content-body {
+  padding: 25px;
+}
+
+.gif {
+  width: 90%;
+  padding-top: 15px;
 }
