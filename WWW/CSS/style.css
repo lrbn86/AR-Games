@@ -16,11 +16,11 @@ html {
 
 body {
   background-repeat: no-repeat;
-  background-image: linear-gradient(purple, red);
+  background-image: linear-gradient(#6d0088, red);
   background-attachment: fixed;
 }
 #nav-bar {
-  background-color: black;
+  /* background-color: black; */
   text-align: center;
   padding: 15px;
 }
@@ -41,6 +41,7 @@ body {
 
 #nav-links > li:hover {
   background-color: #c000ff;
+  border-radius: 15px;
 }
 
 #nav-links > li > a {
@@ -75,52 +76,41 @@ div.gallery:hover {
   padding: 15px;
 }
 
-#contact-form {
-  margin: 25px;
-  padding: 25px;
-}
-
-input[type="text"],
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color: black;
-}
-
-input[type="submit"] {
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 12px 20px;
-}
-
-input[type="submit"]:hover {
-  background-color: rgba(255, 255, 255, 0.445);
-}
-
 #content {
   padding: 15px;
 }
 
 .content-body {
   padding: 25px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .gif {
   padding-top: 15px;
 }
 
-.blog-post {
+h1 {
+  text-decoration: underline;
+}
+
+.blog-post,
+.news-post {
   margin: 15px;
   padding: 5px;
-  border: 1px solid white;
+  border: 2px solid #c000ff;
+}
+
+.blog-post:hover,
+.news-post:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.post-date,
+.read-more-post {
+  font-style: italic;
+}
+
+.read-more-post:hover {
+  color: blue;
 }
