@@ -32,4 +32,8 @@ Functional Requirements
 
 ACTUAL TODO
 1. Figure out how I want to set up the navigation bar - DONE
-  2. Make the nav button hide the links 
+  2. Make the nav button hide the links - DONE
+2. I need to use javascript to make sure form is not empty  before submitting
+3. I need to design the grid layout for the games and for the store
+4. I need to make a promo vid and attach it to the home page
+5. I need to build into the PhoneGap
