@@ -13,16 +13,12 @@ Purpose: A curated list of AR games.
 
 
 Functional Requirements
-1. The site must include 7 content pages - DONE
-2. The site must validate against any STRICT DTD - Using XHTML 1.1 STRICT - DONE
-3. The site must include a starting "home" page - this is the index.html - DONE
 4. The site and app must be responsive - DONE (Using media queries)
 5. The site must include intrasite (link somewhere on same page) and extrasite (Facebook, Twitter)
 6. HTML should be marked up correctly
 7. Contact form (5 elements)
   Must check that none are left blank
   Form should target an appropriate PHP/ASP/JSP page on server
-8. The site must be aesthetically pleasing
 9. The site must include one PNG, one JPG, and one GIF
 
 
