@@ -1,4 +1,3 @@
-/* Mobile First Design */
 * {
   padding: 0;
   margin: 0;
@@ -30,7 +29,7 @@ body {
 
 /* Mobile */
 #logo {
-  width: 100px;
+  width: 30%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,10 +40,6 @@ body {
   height: 50px;
   background-color: black;
   position: relative;
-}
-
-#logo {
-  width: 50%;
 }
 
 #nav-links {
@@ -123,5 +118,6 @@ div.gallery:hover {
 }
 
 .read-more-post {
-  color: blue;
+  color: #e062ff;
+  text-decoration: underline;
 }

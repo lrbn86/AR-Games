@@ -9,18 +9,10 @@ barsIcon.addEventListener("click", function() {
     navLinks.style.display = "block";
   } else {
     barsIcon.className = "fa fa-2x fa-bars";
-
-    // Problem: While in mobile screen, if we close the navigation list and
-    // switch screen size, the navLinks will continue to be disappeared on nonmobile screen
-    // This happens because JS doesn't know
-    // that the window size has changed..unless we add eventlistener
     navLinks.style.display = "none";
   }
 });
 
-// Fixes the above problem...
-// Hacky, but it works...
-// This listens to changes in screen size and act appropriately.
 window.addEventListener("resize", function() {
   if (this.window.innerWidth > 499) {
     navLinks.style.display = "block";

@@ -19,10 +19,16 @@ body {
   background-image: linear-gradient(#6d0088, red);
   background-attachment: fixed;
 }
+
+#logo {
+  width: 25%;
+}
+
 #nav-bar {
   /* background-color: black; */
   text-align: center;
   padding: 15px;
+  padding-bottom: 80px;
 }
 
 #bars-icon {
@@ -89,10 +95,6 @@ div.gallery:hover {
   padding-top: 15px;
 }
 
-h1 {
-  text-decoration: underline;
-}
-
 .blog-post,
 .news-post {
   margin: 15px;
@@ -111,6 +113,7 @@ h1 {
   font-style: italic;
 }
 
-.read-more-post:hover {
-  color: blue;
+.read-more-post {
+  color: #e062ff;
+  text-decoration: underline;
 }
