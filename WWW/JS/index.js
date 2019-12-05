@@ -11,6 +11,7 @@ barsIcon.addEventListener("click", function() {
     barsIcon.className = "fa fa-2x fa-bars";
     navLinks.style.display = "none";
   }
+  console.log("HMM");
 });
 
 window.addEventListener("resize", function() {
