@@ -29,18 +29,18 @@
     <div id="contact-content">
       <h1>Contact Us</h1>
       <div id="form-container">
-        <form id="contact-form" action="">
+        <form id="contact-form" action="get-method.php" method="post">
           <div>
             <p class="contact-label">Name:</p>
-            <input id="name-input" type="text" />
+            <input id="name-input" type="text" name="fullname" />
           </div>
           <div>
             <p class="contact-label">Email:</p>
-            <input id="email-input" type="text" />
+            <input id="email-input" type="text" name="email" />
           </div>
           <div>
             <p class="contact-label">Message Context</p>
-            <select>
+            <select name="selectedContext">
               <option value="General">General</option>
               <option value="Job">Job</option>
               <option value="Requests">Requests</option>
@@ -48,10 +48,10 @@
           </div>
           <div>
             <p class="contact-label">Message:</p>
-            <textarea id="message-area" rows="" cols=""></textarea>
+            <textarea id="message-area" rows="" cols="" name="message"></textarea>
           </div>
           <div>
-            <button id="submitButton">Submit</button>
+            <button id="submitButton" name="submit">Submit</button>
           </div>
         </form>
       </div>
