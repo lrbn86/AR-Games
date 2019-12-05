@@ -55,9 +55,8 @@ body {
   padding: 10px 40px;
 }
 
-.content-body {
-  padding: 25px;
-  /* text-align: center; */
+#content {
+  text-align: center;
 }
 
 .gif {
@@ -85,4 +84,31 @@ body {
 .read-more-post {
   color: #e062ff;
   text-decoration: underline;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 300px;
+  /* height: 300px; */
+  text-align: center;
+  border: 2px solid #c000ff;
+  margin: 15px;
+}
+
+.gallery-item:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  opacity: 85%;
+}
+
+.gallery-item-desc {
+  background-color: black;
+}
+
+#gallery {
+  padding-top: 35px;
 }
