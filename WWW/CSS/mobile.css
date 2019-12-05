@@ -116,3 +116,53 @@ body {
 #gallery {
   padding-top: 35px;
 }
+
+#form-container {
+  float: left;
+  padding: 25px;
+}
+
+#contact-info {
+  clear: both;
+}
+
+.contact-label {
+  text-align: left;
+}
+
+textarea {
+  color: black;
+  width: 250px;
+  height: 150px;
+  font-size: 15px;
+}
+
+input {
+  color: black;
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+}
+
+button {
+  color: black;
+  width: 150px;
+  height: 70px;
+  margin-top: 12px;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 85%;
+}
+
+#contact-content {
+  padding: 25px;
+}
+
+#contact-content > h1 {
+  text-align: center;
+}
