@@ -25,7 +25,6 @@ body {
 }
 
 #nav-bar {
-  /* background-color: black; */
   text-align: center;
   padding: 15px;
   padding-bottom: 80px;
@@ -93,7 +92,6 @@ body {
 .gallery-item {
   display: inline-block;
   width: 300px;
-  /* height: 300px; */
   text-align: center;
   border: 2px solid #c000ff;
   margin: 15px;
