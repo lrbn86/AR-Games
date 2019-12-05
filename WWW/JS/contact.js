@@ -10,13 +10,13 @@ form.addEventListener("submit", function(e) {
   email = emailInput.value.trim();
   text = textarea.value.trim();
   if (name.length === 0) {
-    nameInput.style.border = "4px solid red";
+    nameInput.classList.add("redborder");
   }
   if (email.length === 0) {
-    emailInput.style.border = "4px solid red";
+    emailInput.classList.add("redborder");
   }
   if (text.length === 0) {
-    textarea.style.border = "4px solid red";
+    textarea.classList.add("redborder");
   }
 
   if (name.length === 0 || email.length === 0 || text.length === 0) {
@@ -27,5 +27,8 @@ form.addEventListener("submit", function(e) {
     nameInput.value = "";
     emailInput.value = "";
     textarea.value = "";
+    nameInput.classList.remove("redborder");
+    emailInput.classList.remove("redborder");
+    textarea.classList.remove("redborder");
   }
 });
